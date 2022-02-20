@@ -1,0 +1,466 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'uk' Physical Memory: 15722 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/zheni/Ukraine War
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62243
+Successfully changed project path to: C:/Users/zheni/Ukraine War
+C:/Users/zheni/Ukraine War
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zheni/Ukraine War/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   
+    VRAM:     7861 MB
+    Driver:   27.20.14016.13
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001819 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2301 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 3.706100 ms (FindLiveObjects: 0.397600 ms CreateObjectMapping: 0.119400 ms MarkObjects: 3.100100 ms  DeleteObjects: 0.087100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Flat Platformer Template/Scenes
+  artifactKey: Guid(c97e1a7e5484d5145803b9d63ba12b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Scenes using Guid(c97e1a7e5484d5145803b9d63ba12b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d5a162bbced88fca67b69056584a4e') in 0.010009 seconds 
+  Import took 0.013773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Flat Platformer Template/Scenes/Demo.unity
+  artifactKey: Guid(7beebdc2d140ece46a9735165d32b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Scenes/Demo.unity using Guid(7beebdc2d140ece46a9735165d32b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54dfaacf05420279975c72b092c456b') in 0.016207 seconds 
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.036221 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959bcd953351e9c5a7810ccb1b3618ea') in 0.014803 seconds 
+  Import took 0.018514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.170800 seconds.
+  path: Assets/Flat Platformer Template/Prefabs
+  artifactKey: Guid(cfd91e4664fb016488bb74bab8d9d5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs using Guid(cfd91e4664fb016488bb74bab8d9d5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4324f6baa4756fcd4a48527cd58b1184') in 0.007815 seconds 
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041495 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_0.prefab
+  artifactKey: Guid(912a5636d8fc1784a9dbcaea5b6943ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_0.prefab using Guid(912a5636d8fc1784a9dbcaea5b6943ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afbc065d61ef0b1f0b14071f1470b94') in 0.102355 seconds 
+  Import took 0.106576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Clouds_2.prefab
+  artifactKey: Guid(dc5d786f80d350c4290319f55451c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Clouds_2.prefab using Guid(dc5d786f80d350c4290319f55451c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd647d012c8307b5ef27c9ac6e5adf105') in 0.015929 seconds 
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_10.prefab
+  artifactKey: Guid(ea894a5952703264198cca5d0f05ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_10.prefab using Guid(ea894a5952703264198cca5d0f05ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694486767e1d63d57a6e1082a17170cd') in 0.019488 seconds 
+  Import took 0.022986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_12.prefab
+  artifactKey: Guid(3903b3ab092a3584980d6227cb2d7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_12.prefab using Guid(3903b3ab092a3584980d6227cb2d7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e005cc332ec7d4bff219cd48c0a783d') in 0.018317 seconds 
+  Import took 0.021880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_1.prefab
+  artifactKey: Guid(1388df4395c60b74b93fa853e7a26993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_1.prefab using Guid(1388df4395c60b74b93fa853e7a26993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6e1116d995d060f31708642a472dba') in 0.013667 seconds 
+  Import took 0.017994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Knight.prefab
+  artifactKey: Guid(ed18ae643e6150e48a215de290a44235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Knight.prefab using Guid(ed18ae643e6150e48a215de290a44235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de57389b3d0e22680834f25691b9099') in 0.026004 seconds 
+  Import took 0.029483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_1.prefab
+  artifactKey: Guid(781ff537a86bbe941b79285dfac91178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_1.prefab using Guid(781ff537a86bbe941b79285dfac91178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c51cee3848939ce944baeb1502325b6') in 0.017121 seconds 
+  Import took 0.021224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Mountains.prefab
+  artifactKey: Guid(628aa1da3b0e9bd42936e033c58f35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Mountains.prefab using Guid(628aa1da3b0e9bd42936e033c58f35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5cefaf373e0aeba2d9d3c064851a2f') in 0.015721 seconds 
+  Import took 0.019175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_2.prefab
+  artifactKey: Guid(ea658ab4c1768e34ca85cf1ca1042490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_2.prefab using Guid(ea658ab4c1768e34ca85cf1ca1042490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d7bd48a6698ffb610d3a4582c81be5') in 0.016951 seconds 
+  Import took 0.021498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_4.prefab
+  artifactKey: Guid(581354f50ef97d242b5bb070e811f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_4.prefab using Guid(581354f50ef97d242b5bb070e811f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fd82e2f7d506da9eca75f56d641dad') in 0.016607 seconds 
+  Import took 0.021168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Cart.prefab
+  artifactKey: Guid(21b857671bfb7e44c8d95e09c536abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Cart.prefab using Guid(21b857671bfb7e44c8d95e09c536abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755217f434771b394ca5413f81b819c6') in 0.016141 seconds 
+  Import took 0.020098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_13.prefab
+  artifactKey: Guid(900544f289a6c68429b69f8b259d2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_13.prefab using Guid(900544f289a6c68429b69f8b259d2a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688dc92c67ec521b0cb76d1e9706fb45') in 0.017807 seconds 
+  Import took 0.021433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_8.prefab
+  artifactKey: Guid(a47e02929718292409ca84e71b71e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_8.prefab using Guid(a47e02929718292409ca84e71b71e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24c632f2cb211df75ed99c1dba1e545') in 0.014864 seconds 
+  Import took 0.018546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_9.prefab
+  artifactKey: Guid(ffcc6d3286a9f5f43885906f8a3e26d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_9.prefab using Guid(ffcc6d3286a9f5f43885906f8a3e26d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4be945fa889237a2f395cb063b4048') in 0.017304 seconds 
+  Import took 0.020963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_3.prefab
+  artifactKey: Guid(ed27da27248810b459d89cde5821635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_3.prefab using Guid(ed27da27248810b459d89cde5821635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308a359d46f1d57678dcd7d6cc33d68a') in 0.017549 seconds 
+  Import took 0.021222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Clouds_4.prefab
+  artifactKey: Guid(c262fa067521aaa4f8c24c256b35d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Clouds_4.prefab using Guid(c262fa067521aaa4f8c24c256b35d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f25fd8bacfca3338fa270aa9a202712') in 0.017811 seconds 
+  Import took 0.021439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_0.prefab
+  artifactKey: Guid(ffba37ecbd0ecdb408ca3ae0b93ef4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_0.prefab using Guid(ffba37ecbd0ecdb408ca3ae0b93ef4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eade91e6b02603ab7f12dc6934013f7') in 0.016718 seconds 
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_3.prefab
+  artifactKey: Guid(806b0901dfc7c494180859edb2083501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_3.prefab using Guid(806b0901dfc7c494180859edb2083501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a5d2ec7ffaaf33dcb9e43c8bcfe3b8') in 0.016542 seconds 
+  Import took 0.020544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_2.prefab
+  artifactKey: Guid(d5a7f1e685dfe2a46864c10baaf7e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_2.prefab using Guid(d5a7f1e685dfe2a46864c10baaf7e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff862c287962bf5ea961c5feee779da0') in 0.015405 seconds 
+  Import took 0.019693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_5.prefab
+  artifactKey: Guid(6ac3d52b9887b2f4f8a7bdde2eb63865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_5.prefab using Guid(6ac3d52b9887b2f4f8a7bdde2eb63865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee92026c881e2b9ae518b15a340397a') in 0.015179 seconds 
+  Import took 0.018829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Clouds_0.prefab
+  artifactKey: Guid(fe505efdebb13be4ba193ee1a4bd870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Clouds_0.prefab using Guid(fe505efdebb13be4ba193ee1a4bd870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaf71556de94df513a9776137d1ab19') in 0.016686 seconds 
+  Import took 0.020662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_6.prefab
+  artifactKey: Guid(9bdb7c8573ac7fe4f999995067d559e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_6.prefab using Guid(9bdb7c8573ac7fe4f999995067d559e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9280be01ec729a86a8775b356d4b0539') in 0.018587 seconds 
+  Import took 0.021930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_7.prefab
+  artifactKey: Guid(d6f8a10e9ce4308418b967e7c6d9911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_7.prefab using Guid(d6f8a10e9ce4308418b967e7c6d9911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a497b03422b9052b7d813f2e8bde81c') in 0.017804 seconds 
+  Import took 0.021357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_9.prefab
+  artifactKey: Guid(8a073d6734cd682499370aa186b63170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_9.prefab using Guid(8a073d6734cd682499370aa186b63170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a176c16a4b605998d987ec9f9094429a') in 0.014801 seconds 
+  Import took 0.018313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_7.prefab
+  artifactKey: Guid(5e50b53eac2999d4a89fdc44a9ed2ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_7.prefab using Guid(5e50b53eac2999d4a89fdc44a9ed2ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbec8e33233e559883bd359978d551c') in 0.014823 seconds 
+  Import took 0.018472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Clouds_1.prefab
+  artifactKey: Guid(cd61558369ce0144497ce67df4873ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Clouds_1.prefab using Guid(cd61558369ce0144497ce67df4873ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f80914554ed37294b2a9b3bf494bd92') in 0.015826 seconds 
+  Import took 0.019911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_4.prefab
+  artifactKey: Guid(62bcf74498a882744bb53df5303b2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_4.prefab using Guid(62bcf74498a882744bb53df5303b2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff312b870ae99551d49af63ecd356eb1') in 0.018023 seconds 
+  Import took 0.021662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Clouds_3.prefab
+  artifactKey: Guid(2f7f5ffb133574f40a9060d421bd4f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Clouds_3.prefab using Guid(2f7f5ffb133574f40a9060d421bd4f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f2b31222a685e866ed6fd4bd171b55') in 0.015730 seconds 
+  Import took 0.019229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Bushes_8.prefab
+  artifactKey: Guid(1e8fe7374ec88e244bc05ecd57c60115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Bushes_8.prefab using Guid(1e8fe7374ec88e244bc05ecd57c60115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd91aab3a780c012e45ef39b8f10349d') in 0.019858 seconds 
+  Import took 0.024528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Grass_6.prefab
+  artifactKey: Guid(319108b3f858b5e4f801fdf1ada69d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Grass_6.prefab using Guid(319108b3f858b5e4f801fdf1ada69d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881bbb645c3ec7647f5e487cf3d32d72') in 0.014546 seconds 
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Flat Platformer Template/Prefabs/Windmill.prefab
+  artifactKey: Guid(ce41f33a083de1240ab094faea6c2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Platformer Template/Prefabs/Windmill.prefab using Guid(ce41f33a083de1240ab094faea6c2e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba17cc74c0125dfb5d430c231f8b531') in 0.016238 seconds 
+  Import took 0.020541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2290 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 3.956800 ms (FindLiveObjects: 0.414600 ms CreateObjectMapping: 0.131500 ms MarkObjects: 3.377900 ms  DeleteObjects: 0.031400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
